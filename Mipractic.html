@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es-Es" dir="ltr">
+<head>
+	<meta charset="utf-8"/>
+	<title>Practica Lenguaje de Marcas</title>
+
+	<style>
+		
+		@font-face{
+			font-family: raulweb;
+			src:url(fonts/BarlowCondensed-Medium.ttf);
+		}
+		body{
+			font-family: raulweb;
+			margin:0;
+			padding:0;
+			border:0;
+			font-size: 100%;
+		}
+		.Cabecera{
+			width: 100%;
+			overflow: auto;
+			color:black;
+		}
+		.menuinterior{
+			float:left;
+			display: inline-block;
+			width:40%;
+			overflow: auto; 
+		}
+		.olopciones{
+			padding-top:10px;
+			padding-bottom:20px;
+			list-style-type:none;
+			text-align:left;
+			overflow:auto;
+		}
+		.olopciones li{
+			display:inline-block;
+			padding-left:15px;
+			width:20%;
+			font-size:15px;
+		}
+		.olopciones li a{
+			text-decoration: none;
+			color: black;
+		}
+		.Logo{
+			float:left;
+			width:20%;
+			text-align:center;
+			padding-top:25px;
+			display: inline-block;
+			padding-bottom:20px;
+		}
+		.FotoPortada{
+			background-image: url(images/FotoPortada.webp);
+			background-size: cover;
+			height: 550px;
+		}
+		.imagenesFotoPortada{
+			float:left;
+			margin-left: 32%;
+		}
+		.SegundaPortada p a{
+			text-decoration: underline;
+			color:orange;
+		}
+		.SegundaPortada p{
+			margin-top: 0;
+			padding-top: 200px;
+			text-align: center;
+			width: 80%;
+			margin-left: 10%;
+			font-size: 40px;
+		}
+		.servicios{
+			background-color: white;
+			background-size: 100%;
+			height: 390px;
+			width: 32.5%;	
+			float: left;
+			margin-bottom: 10px;
+		}
+		.DETALLES{
+			text-decoration: none;
+			color:black;
+			border-bottom: 2px solid orange;		
+		}
+		.TerceraPortada{
+			float:left;
+			width: 100%
+			height:557px;
+			margin-left: 2%;
+			margin-top: 100px;
+		}
+		.textoTerceraPortada{
+			float:left;
+			width: 30%
+
+		}
+		.ImagenMadera{
+			float:left;
+			width: 70%;
+			padding-top: 100px;
+		}
+		.ImagenMadera2{
+			float:right;
+			background-image: url(images/materiales.webp);
+			background-size: cover;
+			height: 300px;
+			width: 100%;
+		}
+		.bloquecontacto{
+			width: 100%;
+			height: 800px;
+			float: left;
+		}
+		
+	</style>
+</head> 
+<body>
+	<div class="Cabecera">
+		<div class="menuinterior">
+			<ol class="olopciones">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">SERVICES</a></li>
+				<li><a href="#">MATERIAL</a></li>
+			</ol>
+		</div>
+		<div class="Logo">
+			<img src="images/Logo.png"/>
+		</div>
+		<div class="menuinterior">
+			<ol class="olopciones">
+				<li><a href="#">ABOUT AS</a></li>
+				<li><a href="#">PORTFOLIO</a></li>
+				<li><a href="#">CONTACT</a></li>
+				<li><a href="#">ZOO</a></li>
+			</ol>
+		</div>
+	</div>
+
+	<div class="FotoPortada">
+		<div style="width: 100%; text-align: center; padding-top: 120px;">
+			<p style="font-size: 24px; font-weight: bold; color:rgba(255,255,255,.5); margin-bottom: -20px;">EVERYTHING WE DO IS</p>
+			<p style="font-size: 3cm; color:#FFF; margin: auto;">HANDMADE</p>
+		</div>
+		<div class="imagenesFotoPortada">
+			<div style="background-image:url(images/mini1.webp);background-size: cover;width: 150px;height: 100px;margin-right: 20px;float:left;"></div>
+			<div style="background-image:url(images/mini2.webp);background-size: cover;width: 150px;height: 100px;margin-right: 20px;float:left;"></div>
+			<div style="background-image:url(images/mini3.webp);background-size: cover;width: 150px;height: 100px;margin-right: 20px;float:left;"></div>
+		</div>
+	</div>
+	<div class="SegundaPortada">
+		<p style="margin-top:130px;">ARE YOU LOOKING FOR SOMETHING INDIVIDUAL? <br/> WE DESIGN <a href="#">KITCHEN</a>, <a href="#">FURNITURE</a>, <a href="#">INTERIOR</a> AND MUCH MORE.<br/><a href="#">ALL PRODUCTS</a> ARE DESIGNED FOR YOU.</p>
+	</div>
+	<p style="margin-top: 150px"></p>
+	<div class="servicios" style="margin-right: 10px;"> <h2 style="text-align: center;font-size: 80px;padding-top: 15%;">ALL SERVICES</h2><p style="text-align: center;font-size: 16px;"><a href="#" class="DETALLES">MORE DETAILS</a></p></div>
+
+		<div class="servicios"style="background-image:url(images/servicios1.webp);margin-right: 10px"><div style="height: 80%;background-color: white; width: 80%;margin:auto;margin-top: 35px;"><p style="text-align: center;padding-top: 25%;margin-bottom:-10px;font-size: 50px;">BESPOKE FURNITURE</p><p style="text-align: center;font-size: 16px;"><a href="#" class="DETALLES">MORE DETAILS</a></p></div></div>
+
+		<div class="servicios"style="background-image:url(images/servicios2.webp);"><div style="height: 80%;background-color: white; width: 80%;margin:auto;margin-top: 35px;"><p style="text-align: center;padding-top: 25%;margin-bottom:-10px;font-size: 50px;">FLOORS & WALLS</p><p style="text-align: center;font-size: 16px;"><a href="#" class="DETALLES">MORE DETAILS</a></p></div></div>
+
+		<div class="servicios"style="background-image:url(images/servicios3.webp);margin-right: 10px;"><div style="height: 80%;background-color: white; width: 80%;margin:auto;margin-top: 35px;"><p style="text-align: center;padding-top: 25%;margin-bottom:-10px;font-size: 50px;">KITCHENS</p><p style="text-align: center;font-size: 16px;"><a href="#" class="DETALLES">MORE DETAILS</a></p></div></div>
+
+		<div class="servicios"style="background-image:url(images/servicios4.webp);margin-right: 10px";><div style="height: 80%;background-color: white; width: 80%;margin:auto;margin-top: 35px;"><p style="text-align: center;padding-top: 25%;margin-bottom:-10px;font-size: 50px;">INTERIOR CONSTRUCTIONS</p><p style="text-align: center;font-size: 16px;"><a href="#" class="DETALLES">MORE DETAILS</a></p></div></div>
+
+		<div class="servicios"style="background-image:url(images/servicios5.webp);"><div style="height: 80%;background-color: white; width: 80%;margin:auto;margin-top: 35px;"><p style="text-align: center;padding-top: 25%;margin-bottom:-10px;font-size: 50px;">PLANNING AND DESIGN</p><p style="text-align: center;font-size: 16px;"><a href="#" class="DETALLES">MORE DETAILS</a></p></div></div>
+	</div>
+	<div class="TerceraPortada">
+		<div class="textoTerceraPortada">
+			<p style="font-size:60px; margin-top: -30px; ">OUR MATERIALS ALWAYS HAVE THE BEST QUALITY</p>
+			<p  style="font-size: 18px; ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+			<p style="font-size: 25px;"><a href="#" class="DETALLES">MORE DETAILS</a></p>
+		</div>
+		<div class="ImagenMadera">
+			<div class="ImagenMadera2"></div>
+		</div>
+	</div>
+	<div class="bloquecontacto" style="margin-bottom: 50px;">
+		<div style="background-image:url(images/fondomadera.webp);width:100%;height:500px;">
+			
+			<div style="float:left;height: 400px;background-color: white; width: 90%;margin-left:60px;margin-top: 50px; ">
+				<p style="font-size: 40px;margin-left: 30px;padding-top: 30px;">WE STARTED OUR OWN BUSINESS EXACTLY 10 YEARS AGO.<br/> OUR TARGET WAS TO DO WHAT WE LOVE – FOLLOW OUR PASSION.</br> SEE THE FULL STORY BEHIND CRAFT.</p>
+				<p style="font-size: 18px;margin-left: 30px;"><a href="#" class="DETALLES">MORE ABOUT US</a></p>
+			</div>
+		</div>
+		<div style="width: 100%;height: 400px; float:left;">
+			<div style="float:left;width:280px;height: 270px;background-image:url(images/tio1.webp);background-size: cover;margin-left:60px;">
+				<p style="margin-top: 290px;font-size: 32px;">ANDREW F. RICHARD</p>
+				<p style="font-size: 24px;color:orange;margin-top: -20px;">FOUNDER</p>
+			</div>
+			<div style="float:left;width:280px;height: 270px;background-image:url(images/tio2.webp);background-size: cover;margin-left:50px;">
+				<p style="margin-top: 290px;font-size: 32px;">JACK CORBIN</p>
+				<p style="font-size: 24px;color:orange;margin-top: -20px;">FOUNDER</p>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
